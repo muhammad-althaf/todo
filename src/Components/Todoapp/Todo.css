@@ -1,0 +1,66 @@
+body{
+    background: rgb(0, 0, 0);
+}
+.todo-container{
+    background: black;
+    width: 90vw;
+    color: white;
+    margin: 5em auto;
+    padding: 15px;
+    border-radius: 10px;
+    
+}  
+.header{
+    font-size: 2em;
+    text-align: center;
+}
+.input-container{
+    background: black;
+    padding: 0.5em;
+    border: 2px solid aqua;
+    border-radius: 1rem;
+}
+.input{
+    background: white;
+    color: black;
+    margin: 1em;
+    border: 1px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 1em;
+    padding: .5em;
+    width: 80%;
+    outline: none;
+}
+.add-btn{
+    border-radius: 5px;
+    font-size: 2em;
+    cursor: pointer;
+    border: none;
+    padding: 0 15px;
+    color: black;
+    background: aqua;
+    margin: 2px;
+}
+.list-tasks{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    margin: .5em;
+    padding: .5em;
+    background: black;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background: aqua;
+    margin: 0 5px;
+    cursor: pointer;
+}
